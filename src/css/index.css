@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+.footer {
+  padding: 30px 20px;
+  text-align: center;
+  background: #0f172a;
+  color: #cbd5e1;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
