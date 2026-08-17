@@ -2,7 +2,7 @@ import "../css/dashboard.css";
 
 function HealthForm() {
     return (
-        <section className="health-form-section">
+        <section className="health-form-section" id="health-assessment">
             <div className="health-form-header">
                 <span className="section-badge">✦ Health Assessment</span>
 

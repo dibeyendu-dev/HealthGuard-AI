@@ -17,11 +17,10 @@ function Dashboard() {
               to improve your daily lifestyle.
             </p>
           </div>
-
-          <Link to="/dashboard" className="analyze-button">
+          <a href="#health-assessment" className="analyze-button">
             Analyze My Health
             <span>→</span>
-          </Link>
+          </a>
         </section>
 
         <section className="health-summary-grid">
