@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import HealthForm from "../components/HealthForm";
+import ResultCard from "../components/ResultCard";
 import "../css/dashboard.css";
 
 function Dashboard() {
@@ -230,6 +231,7 @@ function Dashboard() {
 
       </div>
       <HealthForm />
+      <ResultCard />
     </main>
   );
 }
