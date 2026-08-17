@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import HealthForm from "../components/HealthForm";
 import "../css/dashboard.css";
 
 function Dashboard() {
@@ -228,6 +229,7 @@ function Dashboard() {
         </section>
 
       </div>
+      <HealthForm />
     </main>
   );
 }
