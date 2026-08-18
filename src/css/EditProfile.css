@@ -1,0 +1,92 @@
+/* ================================
+   EDIT PROFILE
+================================ */
+
+.profile-info {
+  max-width: 950px;
+}
+
+.profile-field label {
+  display: block;
+  margin-bottom: 8px;
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.profile-field input,
+.profile-field select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  outline: none;
+  background: #f8fafc;
+  color: #334155;
+  font-size: 13px;
+  font-family: inherit;
+  transition: .3s ease;
+  box-sizing: border-box;
+}
+
+.profile-field input:focus,
+.profile-field select:focus {
+  border-color: #6366f1;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, .1);
+}
+
+.profile-field input:hover,
+.profile-field select:hover {
+  border-color: #a5b4fc;
+}
+
+
+/* Save Button */
+
+.profile-info .edit-profile-btn {
+  margin-top: 25px;
+  padding: 13px 28px;
+  border: none;
+  border-radius: 12px;
+  color: #ffffff;
+  background: linear-gradient(
+    135deg,
+    #6366f1,
+    #ec4899
+  );
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .35s ease;
+}
+
+.profile-info .edit-profile-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(99, 102, 241, .25);
+}
+
+.profile-info .edit-profile-btn:active {
+  transform: scale(.97);
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+  .profile-info {
+    padding: 22px 18px;
+  }
+
+  .profile-field input,
+  .profile-field select {
+    padding: 11px 12px;
+    font-size: 12px;
+  }
+
+  .profile-info .edit-profile-btn {
+    width: 100%;
+  }
+
+}
