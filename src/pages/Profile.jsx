@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../css/profile.css";
 
 function Profile() {
@@ -28,9 +29,9 @@ function Profile() {
           <h2>Dibeyendu Maity</h2>
           <p>HealthGuard AI User</p>
 
-          <button className="edit-profile-btn">
+          <Link to="/edit-profile" className="edit-profile-btn">
             Edit Profile
-          </button>
+          </Link>
 
         </div>
 
@@ -48,12 +49,12 @@ function Profile() {
 
             <div className="profile-field">
               <span>Email</span>
-              <strong>user@example.com</strong>
+              <strong>dibeyendumaity@gmail.com</strong>
             </div>
 
             <div className="profile-field">
               <span>Age</span>
-              <strong>22 Years</strong>
+              <strong>21 Years</strong>
             </div>
 
             <div className="profile-field">
@@ -66,3 +67,36 @@ function Profile() {
           <h2 className="health-title">
             Health Preferences
           </h2>
+          <div className="profile-grid">
+
+            <div className="profile-field">
+              <span>Activity Level</span>
+              <strong>Moderate</strong>
+            </div>
+
+            <div className="profile-field">
+              <span>Sleep Goal</span>
+              <strong>7–8 Hours</strong>
+            </div>
+
+            <div className="profile-field">
+              <span>Water Goal</span>
+              <strong>2.5 Litres</strong>
+            </div>
+
+            <div className="profile-field">
+              <span>Health Goal</span>
+              <strong>Healthy Lifestyle</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  );
+}
+
+export default Profile;
